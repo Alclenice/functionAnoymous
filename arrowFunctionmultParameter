@@ -1,0 +1,37 @@
+<!DOCTYPE html.
+<html>
+	<body> 
+	
+	<h2>JavaScript Arrow Function</h2>
+	
+	    <script>
+function subtractNum1(a,b,c) {
+			  return console.log(a-b-c);
+			}
+            
+            subtractNum1(10,20,30);	
+			
+			//i its a single liner, then get thelogic to a single line remove the brace, and remove the return.
+			
+			
+			let subtractNum2 = (a,b,c) => console.log(a-b-c);
+            subtractNum2(10,20,30);	
+			
+			// Single params, then even remove  the parantese
+			
+			let subtractNum3 = a => {
+			let b = a*10;
+			console.log(b);
+			}
+            subtractNum3(10);
+			
+			//function no parameter
+			
+			let subtractNum4 = () => console.log("Functiom with no prameter");
+            subtractNum4();
+			
+	    
+		</script>
+		
+	</body>
+</html>
