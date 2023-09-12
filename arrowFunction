@@ -1,0 +1,26 @@
+<!DOCTYPE html.
+<html>
+	<body> 
+	
+	<h2>JavaScript Arrow Function</h2>
+	
+	    <script>
+function mult2numbers1(x,y) {
+			  return console.log(x * y);
+			}
+            
+            mult2numbers1(9,8);	
+			
+			// [1] remove function, we are left vwiht only the function name
+			// 3 convert the function name to variable
+
+       let mult2numbers2 = (x,y) => {
+			  return console.log(x * y);
+			}
+			
+			mult2numbers2(6,5);
+		
+	    
+		</script>
+	</body>
+</html>
