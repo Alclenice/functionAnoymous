@@ -1,0 +1,30 @@
+package ModuleLambda;
+
+interface pocLambda{
+	
+	//public void implementpoc1();
+	//public void implementpoc2();
+	
+	public String FLNames(String fName, String lName);
+	
+}
+
+public class LambdaClass01 {
+	public static void main(String args[]) {
+		
+		int x = 100;
+		
+	
+	   //Implementing the interface	
+		pocLambda p1 = (fName, lName) -> {
+			
+		
+			System.out.println("Implemented Lambda expression " +fName + " " +lName);
+		        return fName;
+		};
+			
+		p1.FLNames("Damien", "Murphy");
+
+	}
+
+}
