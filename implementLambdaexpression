@@ -1,0 +1,22 @@
+package ModuleLambda;
+
+interface pocLambda{
+	public void implementpoc1();
+	//public void implementpoc2();
+	
+}
+
+public class LambdaClass01 {
+	public static void main(String args[]) {
+		
+		int x = 100;
+		
+		pocLambda p1 = () -> {
+			
+		  System.out.println("Implement Lambda expression " +x);
+	   };
+	   
+	   p1.implementpoc1();
+	}
+
+}
